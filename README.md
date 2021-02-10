@@ -6,7 +6,8 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Considerations](#considerations)
+- [Resources](#resources)
+- [Hints and Considerations](#considerations)
 - [Submission](#submission)
 
 ## 🧐 About <a name = "about"></a>
@@ -22,7 +23,7 @@ In this homework assignment, you will need to:
 3. Compare two or more models
 
 
-## 💻 Getting Started <a name = "getting_started"></a>
+## 🥶 Getting Started <a name = "getting_started"></a>
 
 ### Preprocess the Data: <br>
 
@@ -46,7 +47,7 @@ In this homework assignment, you will need to:
 •	Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 
-## ⏱Resources: <a name = "considerations"></a>
+## 🤔Resources: <a name = "resources"></a>
 
 •	Exoplanet Data Source(https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
 
@@ -57,7 +58,7 @@ In this homework assignment, you will need to:
 •	Grid Search(https://scikit-learn.org/stable/modules/grid_search.html)
 
 
-## ⏱Hints and Considerations: <a name = "submission"></a>
+## 🤩 Hints and Considerations: <a name = "considerations"></a>
 
 •	Start by cleaning the data, removing unnecessary columns, and scaling the data.
 
@@ -67,7 +68,7 @@ In this homework assignment, you will need to:
 
 •	Try a simple model first, and then tune the model using GridSearch.
 
-## ⏱Submission: <a name = "submission"></a>
+## 😃Submission: <a name = "submission"></a>
 
 •	Create a Jupyter Notebook for each model and host the notebooks on GitHub.
 
