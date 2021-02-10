@@ -22,104 +22,57 @@ In this homework assignment, you will need to:
 3. Compare two or more models
 
 
-
-
-
-
-
 ## 💻 Getting Started <a name = "getting_started"></a>
 
-### Task: <br>
+### Preprocess the Data: <br>
 
-**Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.**
+•	Preprocess the dataset prior to fitting the model.
 
-**Design 2-5 visualizations for each discovered phenomena (4-10 total). You may work with a timespan of your choosing. Optionally, you may merge multiple datasets from different periods.**
+•	Perform feature selection and remove unnecessary features.
 
-**The following are some questions you may wish to tackle. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!**
+•	Use MinMaxScaler to scale the numerical data.
 
-•	How many trips have been recorded total during the chosen period?
+•	Separate the data into training and testing data.
 
-•	By what percentage has total ridership grown?
+### Tune Model Parameters: <br>
 
-•	How has the proportion of short-term customers and annual subscribers changed?
+•	Use GridSearch to tune model parameters.
 
-•	What are the peak hours in which bikes are used during summer months?
+•	Tune and compare at least two different classifiers.
 
-•	What are the peak hours in which bikes are used during winter months?
-
-•	Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
-
-•	Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-
-•	Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-
-•	Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-
-•	Today, what is the gender breakdown of active participants (Male v. Female)?
-
-•	How effective has gender outreach been in increasing female ridership over the timespan?
-
-•	How does the average trip duration change by age?
-
-•	What is the average distance in miles that a bike is ridden?
-
-•	Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-•	How variable is the utilization by bike ID?
-
-**Next, as a chronic over-achiever:**
-
-•	Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-
-•	The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring.
+### Reporting: <br>
 
 
-**City officials would also like to see one of the following visualizations:**
-
-• **Basic:** 
-A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-
-• **Advanced:** 
-A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-•	The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
-
-**Finally, create your final presentation:**
-
-•	Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-
-•	This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing.
+•	Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 
-## ⏱Considerations. <a name = "considerations"></a>
+## ⏱Resources: <a name = "considerations"></a>
 
-Remember, the people reading your analysis will NOT be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes.
+•	Exoplanet Data Source(https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
 
+•	Scikit-Learn Tutorial Part 1(https://www.youtube.com/watch?v=4PXAztQtoTg)
 
-## ⏱Submission. <a name = "submission"></a>
+•	Scikit-Learn Tutorial Part 2(https://www.youtube.com/watch?v=gK43gtGh49o&t=5858s)
 
-•	A link to your Tableau Public workbook that includes: <br>
-    * 4-10 Total "Phenomenon" Visualizations <br>
-    * 2 Dashboards <br>
-    * 1 City Official Map <br>
-    * 1 Story <br>
-
-•	A text or markdown file with your analysis on the phenomenons you uncovered from the data.
+•	Grid Search(https://scikit-learn.org/stable/modules/grid_search.html)
 
 
+## ⏱Hints and Considerations: <a name = "submission"></a>
 
-**Sharing Your Work:** <br>
+•	Start by cleaning the data, removing unnecessary columns, and scaling the data.
 
-In order to share your work, we are asking that you will save your workbook as a .twbx file so that your TA's can grade them.
+•	Not all variables are significant be sure to remove any insignificant variables.
 
-To save your workbook as a .twbx file, you will just need to select "Save As..." from the "File" dropdown. Then, select the .twbx option.
+•	Make sure your sklearn package is up to date.
 
-**Assessment:** <br>
+•	Try a simple model first, and then tune the model using GridSearch.
 
-Your final product will be assessed on the following metrics:
+## ⏱Submission: <a name = "submission"></a>
 
-•	Analytic Rigor
+•	Create a Jupyter Notebook for each model and host the notebooks on GitHub.
 
-•	Readability
+•	Create a file for your best model and push to GitHub
 
-•	Visual Attraction
+•	Include a README.md file that summarizes your assumptions and findings.
+
+•	Submit the link to your GitHub project to Bootcamp Spot.
