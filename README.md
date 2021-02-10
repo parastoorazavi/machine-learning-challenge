@@ -1,5 +1,6 @@
-# machine-learning-challenge
-## Exoplanet Exploration
+# Machine Learning Homework - Exoplanet Exploration
+
+![Bar Chart](https://github.com/parastoorazavi/Tableau-challenge/blob/main/Images/station-bikes.jpg)
 
 ## 📝 Table of Contents
 
@@ -9,13 +10,16 @@
 - [Submission](#submission)
 
 ## 🧐 About <a name = "about"></a>
-Congratulations on your new job! As the new lead analyst for the New York Citi Bike(https://en.wikipedia.org/wiki/Citi_Bike) Program, you are now responsible for overseeing the largest bike sharing program in the United States. In your new role, you will be expected to generate regular reports for city officials looking to publicize and improve the city program.
+Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 
-Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the Citi Bike Data (https://www.citibikenyc.com/system-data) webpage.
+To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
 
-However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have a number of questions on the program, so your first task on the job is to build a set of data reports to provide the answers.
 
-![Bar Chart](https://github.com/parastoorazavi/Tableau-challenge/blob/main/Images/station-bikes.jpg)
+In this homework assignment, you will need to:
+
+
+
+
 
 
 ## 💻 Getting Started <a name = "getting_started"></a>
