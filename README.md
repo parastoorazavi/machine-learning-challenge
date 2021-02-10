@@ -1,6 +1,6 @@
 # Machine Learning Homework - Exoplanet Exploration
 
-![Bar Chart](https://github.com/parastoorazavi/Tableau-challenge/blob/main/Images/station-bikes.jpg)
+![Bar Chart](https://github.com/parastoorazavi/machine-learning-challenge/blob/main/image/exoplanets.jpg)
 
 ## 📝 Table of Contents
 
@@ -16,6 +16,11 @@ To help process this data, you will create machine learning models capable of cl
 
 
 In this homework assignment, you will need to:
+
+1. Preprocess the raw data
+2. Tune the models
+3. Compare two or more models
+
 
 
 
