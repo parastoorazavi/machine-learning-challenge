@@ -1,12 +1,13 @@
 # Machine Learning Homework - Exoplanet Exploration
 
-![Bar Chart](https://github.com/parastoorazavi/Tableau-challenge/blob/main/Images/station-bikes.jpg)
+![Bar Chart](https://github.com/parastoorazavi/machine-learning-challenge/blob/main/image/exoplanets.jpg)
 
 ## 📝 Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Considerations](#considerations)
+- [Resources](#resources)
+- [Hints and Considerations](#considerations)
 - [Submission](#submission)
 
 ## 🧐 About <a name = "about"></a>
@@ -17,104 +18,62 @@ To help process this data, you will create machine learning models capable of cl
 
 In this homework assignment, you will need to:
 
+1. Preprocess the raw data
+2. Tune the models
+3. Compare two or more models
 
 
+## 🥶 Getting Started <a name = "getting_started"></a>
+
+### Preprocess the Data: <br>
+
+•	Preprocess the dataset prior to fitting the model.
+
+•	Perform feature selection and remove unnecessary features.
+
+•	Use MinMaxScaler to scale the numerical data.
+
+•	Separate the data into training and testing data.
+
+### Tune Model Parameters: <br>
+
+•	Use GridSearch to tune model parameters.
+
+•	Tune and compare at least two different classifiers.
+
+### Reporting: <br>
 
 
-
-## 💻 Getting Started <a name = "getting_started"></a>
-
-### Task: <br>
-
-**Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.**
-
-**Design 2-5 visualizations for each discovered phenomena (4-10 total). You may work with a timespan of your choosing. Optionally, you may merge multiple datasets from different periods.**
-
-**The following are some questions you may wish to tackle. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!**
-
-•	How many trips have been recorded total during the chosen period?
-
-•	By what percentage has total ridership grown?
-
-•	How has the proportion of short-term customers and annual subscribers changed?
-
-•	What are the peak hours in which bikes are used during summer months?
-
-•	What are the peak hours in which bikes are used during winter months?
-
-•	Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
-
-•	Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-
-•	Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-
-•	Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-
-•	Today, what is the gender breakdown of active participants (Male v. Female)?
-
-•	How effective has gender outreach been in increasing female ridership over the timespan?
-
-•	How does the average trip duration change by age?
-
-•	What is the average distance in miles that a bike is ridden?
-
-•	Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-•	How variable is the utilization by bike ID?
-
-**Next, as a chronic over-achiever:**
-
-•	Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-
-•	The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring.
+•	Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 
-**City officials would also like to see one of the following visualizations:**
+## 🤔Resources: <a name = "resources"></a>
 
-• **Basic:** 
-A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
+•	Exoplanet Data Source(https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
 
-• **Advanced:** 
-A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
+•	Scikit-Learn Tutorial Part 1(https://www.youtube.com/watch?v=4PXAztQtoTg)
 
-•	The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
+•	Scikit-Learn Tutorial Part 2(https://www.youtube.com/watch?v=gK43gtGh49o&t=5858s)
 
-**Finally, create your final presentation:**
-
-•	Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-
-•	This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing.
+•	Grid Search(https://scikit-learn.org/stable/modules/grid_search.html)
 
 
-## ⏱Considerations. <a name = "considerations"></a>
+## 🤩 Hints and Considerations: <a name = "considerations"></a>
 
-Remember, the people reading your analysis will NOT be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes.
+•	Start by cleaning the data, removing unnecessary columns, and scaling the data.
 
+•	Not all variables are significant be sure to remove any insignificant variables.
 
-## ⏱Submission. <a name = "submission"></a>
+•	Make sure your sklearn package is up to date.
 
-•	A link to your Tableau Public workbook that includes: <br>
-    * 4-10 Total "Phenomenon" Visualizations <br>
-    * 2 Dashboards <br>
-    * 1 City Official Map <br>
-    * 1 Story <br>
+•	Try a simple model first, and then tune the model using GridSearch.
 
-•	A text or markdown file with your analysis on the phenomenons you uncovered from the data.
+## 😃Submission: <a name = "submission"></a>
 
+•	Create a Jupyter Notebook for each model and host the notebooks on GitHub.
 
+•	Create a file for your best model and push to GitHub
 
-**Sharing Your Work:** <br>
+•	Include a README.md file that summarizes your assumptions and findings.
 
-In order to share your work, we are asking that you will save your workbook as a .twbx file so that your TA's can grade them.
-
-To save your workbook as a .twbx file, you will just need to select "Save As..." from the "File" dropdown. Then, select the .twbx option.
-
-**Assessment:** <br>
-
-Your final product will be assessed on the following metrics:
-
-•	Analytic Rigor
-
-•	Readability
-
-•	Visual Attraction
+•	Submit the link to your GitHub project to Bootcamp Spot.
