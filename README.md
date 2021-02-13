@@ -79,7 +79,7 @@ In this homework assignment, you will need to:
 
 •	Submit the link to your GitHub project to Bootcamp Spot.
 
-## 😃Report: <a name = "report"></a>
+## ✍🏻Report: <a name = "report"></a>
 
 For this project I decided to choose these 4 machines learning algorithms:
 
