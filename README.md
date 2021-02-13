@@ -9,6 +9,7 @@
 - [Resources](#resources)
 - [Hints and Considerations](#considerations)
 - [Submission](#submission)
+- [Report](#report)
 
 ## 🧐 About <a name = "about"></a>
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
@@ -77,3 +78,23 @@ In this homework assignment, you will need to:
 •	Include a README.md file that summarizes your assumptions and findings.
 
 •	Submit the link to your GitHub project to Bootcamp Spot.
+
+## 😃Report: <a name = "report"></a>
+
+For this project I decided to choose these 4 machines learning algorithms:
+
+1.	Decision Trees:
+
+Our Training data score is 1 which means our model is overfit, this is one reason why decision trees tend to overfit, especially on many features or on categorical data with many options. Out testing data score is 0.85. Generally, the accuracy is 88% but I prefer to not use this model which is not perfectly suitable for my dataset.
+
+2.	Random Forest:
+
+In this model, our training and testing data score are in order 0.75 and 0.72 which aren’t high scores but compare decision tree our training score is better and by having 89% accuracy, I prefer to choose this model.
+
+3.	KNN (K- Nearest Neighbors):
+
+I decided to analyze this model in 2 ways, first with ‘err’ columns and second by dropping them the same as other models to see the difference. When we have extra columns in our model, better train/test Scores will be appeared. By keeping ‘err’ columns still I won’t get a good result.
+
+4.	SVM (Support Vector Machine):
+
+This one is the worst one for my dataset, low train and test scores and also just having 60% accuracy, are the reason to put this model out of our competition.
